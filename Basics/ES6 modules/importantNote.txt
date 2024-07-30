@@ -1,0 +1,3 @@
+CommonJS --> executes the full module from scratch each time we call the require() to import the module.
+
+ES6 --> executes the imported module once and if it is imported more than once the whole module is not executed again rather than the cached Module of previous export is reutilised.
